@@ -1,0 +1,7 @@
+<p>
+  parent works!
+</p>
+
+<app-child [inChildProperty] = "parentStringProperty" (childOutProperty) = "stringReceivedInParentAsParameter($event)"></app-child>
+
+Stringul care vine din copil: {{stringOutParent}}
